@@ -11,7 +11,8 @@ trends are still wrong — including after internal variability is accounted
 for.**
 
 That claim is a hypothesis to falsify, not an open search for inter-model
-spread. Details, predictions, and datasets are in `research_goal.md`.
+spread. Details, predictions, and datasets are in `research_goal.md`. Build
+order is in `ROADMAP.md`.
 
 ## Setup
 
