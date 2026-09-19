@@ -1,4 +1,4 @@
-# climate-prediction
+# tropical-precipitation-discovery
 
 Multi-agent climate-change research system, built on
 [orchestra](https://github.com/aaron-zhlg/orchestra).

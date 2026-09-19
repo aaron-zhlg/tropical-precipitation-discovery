@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "climate-prediction"
+name = "tropical-precipitation-discovery"
 version = "0.1.0"
 description = "Multi-agent climate-change research, built on orchestra."
 readme = "README.md"
