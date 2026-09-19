@@ -12,3 +12,6 @@ build/
 logs/
 *.log
 .DS_Store
+dataset/
+*.nc
+*.nc.part

@@ -5,10 +5,13 @@ build-backend = "hatchling.build"
 [project]
 name = "tropical-precipitation-discovery"
 version = "0.1.0"
-description = "Multi-agent climate-change research, built on orchestra."
+description = "Multi-agent research testing whether CMIP6 misses recent tropical rainfall because mean-state biases mute the circulation response to land-sea warming, not because the thermal drivers are missing."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["orchestra-agents"]
+dependencies = [
+    "cdsapi>=0.7.7",
+    "orchestra-agents",
+]
 
 [tool.uv.sources]
 orchestra-agents = { git = "https://github.com/aaron-zhlg/orchestra", branch = "main" }
