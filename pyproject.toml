@@ -14,4 +14,4 @@ dependencies = ["orchestra-agents"]
 orchestra-agents = { git = "https://github.com/aaron-zhlg/orchestra", branch = "main" }
 
 [tool.hatch.build.targets.wheel]
-packages = ["climate_research"]
+packages = ["agents"]
