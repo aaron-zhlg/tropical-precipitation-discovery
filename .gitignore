@@ -13,5 +13,6 @@ logs/
 *.log
 .DS_Store
 dataset/
+runs/
 *.nc
 *.nc.part

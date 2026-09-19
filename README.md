@@ -48,3 +48,24 @@ uv run python scripts/data_prepare.py --skip cmip6
 uv run python scripts/data_prepare.py --cmip6-all
 uv run python scripts/data_prepare.py --out /data/tropprecip
 ```
+
+## Run
+
+Diagnostics only (no LLM):
+
+```bash
+uv run python -m agents.run --catalog
+uv run python -m agents.run --fingerprint
+uv run python -m agents.run --h1-row CanESM5
+uv run python -m agents.run --test-h1
+```
+
+Full lead + subagents (needs an LLM key):
+
+```bash
+uv run python -m agents.run
+uv run python -m agents.run "Test H1 on CanESM5 and ACCESS-CM2 only"
+```
+
+Observation, model, hypothesis_tester, and literature subagents are in `agents/`.
+The lead tests registered H1; it does not search for new mechanisms.
