@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "climate-prediction"
+version = "0.1.0"
+description = "Multi-agent climate-change research, built on orchestra."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["orchestra-agents"]
+
+[tool.uv.sources]
+orchestra-agents = { git = "https://github.com/aaron-zhlg/orchestra", branch = "main" }
+
+[tool.hatch.build.targets.wheel]
+packages = ["climate_research"]
